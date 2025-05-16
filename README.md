@@ -13,7 +13,7 @@ Docker adalah platform open-source untuk mengembangkan, mengirim, dan menjalanka
 ✔ Reproduktibilitas – Lingkungan yang sama antara development dan produksi
 
 
-### Struktur Proyek
+## 1. Struktur Proyek
 
 project-folder/
 
@@ -37,7 +37,7 @@ project-folder/
 
 ![image](https://github.com/user-attachments/assets/bf45b2d3-0dd4-4ba3-ad2c-14d7e670c4cd)
 
-## Clone Repository
+## 2.Clone Repository
 Untuk backend 
 ```
 git clone https://github.com/azkaxfannx/be-krs.git
