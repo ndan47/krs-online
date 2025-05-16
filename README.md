@@ -58,4 +58,16 @@ APP_URL=http://localhost:8000 // Untuk frontend
 
 ![image](https://github.com/user-attachments/assets/708f8db1-cbfa-4e09-b606-5b91ff2b5af4)
 
+## File docker-compose.yml
+  Merupakan file yang akan dituju ketika akan ngebuild container. Docker compose berisi tentang informasi dan konfigurasi mengenai inti dari hasil dari proyek yang nanti dibuild
+  File ini untuk Mengatur:
+  Definisi semua service (backend, frontend, database)
+  Jaringan antar container
+  Port mapping
+  Volume persistence
+  Dependency management antar service
+
+Environment configuration
+## Build Container
+untuk membangun satu kontainer utuh dan menyatukan semua bagiain proyek, yang berjalan dalam satu lingkungan (contianer atau peti kemas)
 
