@@ -35,3 +35,15 @@ project-folder/
 │    └── nginx.conf
 
 ├── docker-compose.yml # Konfigurasi utama Docker
+
+![image](https://github.com/user-attachments/assets/bf45b2d3-0dd4-4ba3-ad2c-14d7e670c4cd)
+
+-Docker pada container
+
+![image](https://github.com/user-attachments/assets/96ac2d22-b26b-485b-84e0-15952bf8c1ed)
+
+-Docker pada images
+
+![image](https://github.com/user-attachments/assets/708f8db1-cbfa-4e09-b606-5b91ff2b5af4)
+
+
