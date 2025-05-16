@@ -40,8 +40,12 @@ Untuk frontend
 git clone https://github.com/AlfitoAdityaProtic/FE-PBF-KRS.git
 ```
 
+## 3. File nginx.conf
+  File nginx.conf adalah file konfigurasi utama untuk Nginx, file ini biasanya digunakan untuk:
+  Konfigurasi Nginx sebagai reverse proxy untuk:  
+  Melayani file static frontend
+  Meneruskan request /api ke backend
 #### Docker pada container
-
 Akses Aplikasi
 ```
 app.baseURL = 'http://localhost:8080/' // Untuk backend
