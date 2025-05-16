@@ -14,7 +14,7 @@ Docker adalah platform open-source untuk mengembangkan, mengirim, dan menjalanka
 
 
 ## 1. Struktur Proyek
-
+```
 project-folder/
 
 ├── backend/
@@ -34,6 +34,7 @@ project-folder/
 │    └── nginx.conf
 
 ├── docker-compose.yml # Konfigurasi utama Docker
+```
 
 ![image](https://github.com/user-attachments/assets/bf45b2d3-0dd4-4ba3-ad2c-14d7e670c4cd)
 
