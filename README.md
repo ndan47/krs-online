@@ -2,7 +2,7 @@
 Docker adalah platform open-source untuk mengembangkan, mengirim, dan menjalankan aplikasi dalam container. Container memungkinkan Anda mengemas aplikasi beserta semua dependensinya dalam satu unit yang standar untuk pengembangan perangkat lunak.
 
 
-Manfaat Utama
+## Manfaat Utama
 
 ✔ Isolasi – Aplikasi berjalan di lingkungan terpisah
 
