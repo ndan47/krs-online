@@ -3,16 +3,23 @@ Docker adalah platform open-source untuk mengembangkan, mengirim, dan menjalanka
 
 
 Manfaat Utama
+
 ✔ Isolasi – Aplikasi berjalan di lingkungan terpisah
+
 ✔ Portabilitas – Berjalan di OS apapun yang mendukung Docker
+
 ✔ Efisiensi – Lebih ringan dibandingkan virtual machine
+
 ✔ Reproduktibilitas – Lingkungan yang sama antara development dan produksi
 
 
 
 Struktur Proyek
+
 project-folder/
+
 ├── backend/
+
 │    └── Dockerfile     # Dockerfile untuk Backend CodeIgniter
 
 │    └── .env          # Konfigurasi variabel lingkungan
