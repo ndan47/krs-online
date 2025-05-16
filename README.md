@@ -18,21 +18,13 @@ Docker adalah platform open-source untuk mengembangkan, mengirim, dan menjalanka
 project-folder/
 
 ├── backend/
-
 │    └── Dockerfile     # Dockerfile untuk Backend CodeIgniter
-
 │    └── .env          # Konfigurasi variabel lingkungan
-
 ├── frontend/
-
 │    └── Dockerfile    # Dockerfile untuk Frontend Laravel
-
 │    └── .env          # Konfigurasi variabel lingkungan
-
 ├── nginx/             # Konfigurasi Nginx
-
 │    └── nginx.conf
-
 ├── docker-compose.yml # Konfigurasi utama Docker
 ```
 
