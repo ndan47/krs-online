@@ -1,4 +1,4 @@
-###📌 Apa Itu Docker?
+# 📌 Apa Itu Docker?
 Docker adalah platform open-source untuk mengembangkan, mengirim, dan menjalankan aplikasi dalam container. Container memungkinkan Anda mengemas aplikasi beserta semua dependensinya dalam satu unit yang standar untuk pengembangan perangkat lunak.
 
 
