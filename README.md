@@ -37,6 +37,16 @@ project-folder/
 
 ![image](https://github.com/user-attachments/assets/bf45b2d3-0dd4-4ba3-ad2c-14d7e670c4cd)
 
+#### Clone Repository
+Untuk backend 
+```
+git clone https://github.com/azkaxfannx/be-krs.git
+```
+Untuk frontend
+```
+git clone https://github.com/AlfitoAdityaProtic/FE-PBF-KRS.git
+```
+
 #### Docker pada container
 
 Akses Aplikasi
