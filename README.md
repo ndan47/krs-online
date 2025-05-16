@@ -39,15 +39,11 @@ Untuk frontend
 ```
 git clone https://github.com/AlfitoAdityaProtic/FE-PBF-KRS.git
 ```
+## 3. Dockerfile baik untuk backend dan frontend
+ Membuat image Docker dengan instalasi dan konfigurasi runtime.
+  untuk urutan komentar yang akan dijalankan saat build container. Command yang terdapat pada dockerfile berpengaruh terhadap pengaturan dan konfigurasi proyek
 
-## 3. File nginx.conf
-  File nginx.conf adalah file konfigurasi utama untuk Nginx, file ini biasanya digunakan untuk:
-  Konfigurasi Nginx sebagai reverse proxy untuk:  
-  Melayani file static frontend
-  Meneruskan request /api ke backend
-
-
-## File docker-compose.yml
+## 4. File docker-compose.yml
   Merupakan file yang akan dituju ketika akan ngebuild container. Docker compose berisi tentang informasi dan konfigurasi mengenai inti dari hasil dari proyek yang nanti dibuild
   File ini untuk Mengatur:
   Definisi semua service (backend, frontend, database)
@@ -56,7 +52,13 @@ git clone https://github.com/AlfitoAdityaProtic/FE-PBF-KRS.git
   Volume persistence
   Dependency management antar service
   Environment configuration
-#### Docker pada container
+## 5. File nginx.conf
+  File nginx.conf adalah file konfigurasi utama untuk Nginx, file ini biasanya digunakan untuk:
+  Konfigurasi Nginx sebagai reverse proxy untuk:  
+  Melayani file static frontend
+  Meneruskan request /api ke backend
+
+### 6. Docker pada container
 Akses Aplikasi
 ```
 app.baseURL = 'http://localhost:8080/' // Untuk backend
