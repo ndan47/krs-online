@@ -13,8 +13,7 @@ Docker adalah platform open-source untuk mengembangkan, mengirim, dan menjalanka
 ✔ Reproduktibilitas – Lingkungan yang sama antara development dan produksi
 
 
-
-Struktur Proyek
+### Struktur Proyek
 
 project-folder/
 
