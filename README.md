@@ -37,7 +37,13 @@ project-folder/
 
 ![image](https://github.com/user-attachments/assets/bf45b2d3-0dd4-4ba3-ad2c-14d7e670c4cd)
 
--Docker pada container
+#### Docker pada container
+
+Akses Aplikasi
+```
+app.baseURL = 'http://localhost:8080/' // Untuk backend
+APP_URL=http://localhost:8000 // Untuk frontend
+```
 
 ![image](https://github.com/user-attachments/assets/96ac2d22-b26b-485b-84e0-15952bf8c1ed)
 
