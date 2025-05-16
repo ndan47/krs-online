@@ -45,18 +45,7 @@ git clone https://github.com/AlfitoAdityaProtic/FE-PBF-KRS.git
   Konfigurasi Nginx sebagai reverse proxy untuk:  
   Melayani file static frontend
   Meneruskan request /api ke backend
-#### Docker pada container
-Akses Aplikasi
-```
-app.baseURL = 'http://localhost:8080/' // Untuk backend
-APP_URL=http://localhost:8000 // Untuk frontend
-```
 
-![image](https://github.com/user-attachments/assets/96ac2d22-b26b-485b-84e0-15952bf8c1ed)
-
--Docker pada images
-
-![image](https://github.com/user-attachments/assets/708f8db1-cbfa-4e09-b606-5b91ff2b5af4)
 
 ## File docker-compose.yml
   Merupakan file yang akan dituju ketika akan ngebuild container. Docker compose berisi tentang informasi dan konfigurasi mengenai inti dari hasil dari proyek yang nanti dibuild
@@ -66,8 +55,25 @@ APP_URL=http://localhost:8000 // Untuk frontend
   Port mapping
   Volume persistence
   Dependency management antar service
-
-Environment configuration
+  Environment configuration
+#### Docker pada container
+Akses Aplikasi
+```
+app.baseURL = 'http://localhost:8080/' // Untuk backend
+APP_URL=http://localhost:8000 // Untuk frontend
+```
 ## Build Container
 untuk membangun satu kontainer utuh dan menyatukan semua bagiain proyek, yang berjalan dalam satu lingkungan (contianer atau peti kemas)
+Docker pada Container
+![image](https://github.com/user-attachments/assets/96ac2d22-b26b-485b-84e0-15952bf8c1ed)
+Docker pada images
+![image](https://github.com/user-attachments/assets/708f8db1-cbfa-4e09-b606-5b91ff2b5af4)
+Akses aplikasi 
+Halaman Login
+![image](https://github.com/user-attachments/assets/69ed76a9-0062-493a-bd9f-2f7af9fa9aae)
+Halaman Register
+![image](https://github.com/user-attachments/assets/c5b3f3d5-76c7-4afd-a605-970e811408ee)
+
+
+
 
